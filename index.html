@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DC</title>
+  <style>
+        * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      background-color: white; 
+    }
+
+    .first-container {
+      height: 70vh;
+      width: 100%;
+      background-color: peachpuff;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      
+
+    }
+
+    .class-description{
+      padding: 40px;
+      font-family: "Lucida Handwriting", cursive;
+      text-align: center;
+      color: #4B2E05;
+      font-size: 30px;
+      
+    }
+    
+    h1{
+      font-family: 'Playfair Display', serif;
+      font-size: 60px;
+      text-align: center;
+      color: #4B2E05;
+            
+    }
+
+    .laptop{
+      width: 150px;
+      height:auto;
+      position: absolute;
+      left: 80px;          
+      bottom: 70px;
+      
+    }
+
+    .rabbit{
+     width: 150px;
+     height: auto;
+     position: absolute;
+     right: 80px;
+     top: 45px;
+    }
+    
+    .second-container{
+      position: relative;
+      width: 100%;
+      height: 50vh;
+      background-color: beige;
+      margin-top: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;      
+      flex-direction: column;
+    }
+
+    .pic{
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+      margin-bottom: 20px;    
+      margin-top: 0; 
+    }
+
+    .description{
+       max-width: 800px;
+       text-align: center;
+       font-size: 20px;
+        color: #2c3e50;
+         font-family: 'Georgia', serif;
+    }
+    
+    .third-container {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  background-color:peachpuff;
+    }
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px; 
+  max-width: 800px;
+  text-align: center; 
+}
+
+.first-skill,
+.second-skill,
+.third-skill {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 700px;
+  margin-bottom: 30px;
+  text-align: left; 
+} 
+
+.video-container {
+  flex-shrink: 0; 
+  
+}
+
+.video-container video {
+  height: 200px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.skill-text {
+  display: flex;
+  flex-direction: column;
+}
+.skills {
+  margin-top: 10px;
+  font-family: Arial, sans-serif;
+  color: #4F4F4F;
+}
+
+ h3{
+  color: #6B3E26;
+}
+ h2{
+  color: #5C4033;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: x-large;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.fourth-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 700px;
+  text-align: center;
+  margin-top: 100px;
+  width: 100%;
+  margin: 100px auto 0 auto;
+}
+
+.contact{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:#2c3e50 ;
+}
+
+h4{
+  font-size: x-large;
+  margin-bottom: 20px;
+  color:#3B4C6B;
+}
+
+.button{
+  padding: 12px 20px;
+  background-color:#ffb07c ; 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: #ff8c42; 
+}
+
+.fifth-container{
+  background-color: peachpuff;
+  margin-top: 50px;
+  height: 15vh;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #ff8c42; 
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #d4572c;  
+}
+
+
+  .credit {
+  margin-top: 0;
+  font-size: 0.65rem;
+  color: #888;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+
+  </style>
+
+</head>
+<body>
+  <!--Section 1-->
+  <div class="first-container">
+    <div class="text-block">
+    <h1>Hi! I'm Diya</h1>
+    <p class="class-description">a Programmer :)</p>
+    <div class="image">
+      <img src="./images/laptop.png"  class="laptop" alt="laptop">
+      <img src="./images/rabbit.png"  class="rabbit" alt="rabbit">
+    </div>
+        </div>
+  </div>
+
+  <!--Section 2-->
+  <div class="second-container">
+    <img src="./images/pic.jpg" class="pic" alt="pic">
+    <p class="description">I am a second-year CSE student with a strong passion for web development. I enjoy creating
+      interactive and responsive websites, and I'm always eager to learn new technologies to improve my skills. Outside of
+      tech-world, I love listening to music and experimenting with new recipes in the kitchen. <3 </p>
+  </div>
+  
+  <!--Section 3-->
+  <div class="third-container">
+    <h2>My Skills</h2>
+    <div class="block">
+       <div class="first-skill">
+    <div class="video-container"><video autoplay loop muted playsinline>
+    <source src="./images/Web development.mp4" type="video/mp4">
+      </video></div>
+      <div class="skill-text"><h3>Web Design and Development</h3>
+      <p class="skills">
+        Proficient in building responsive and user-friendly websites using HTML, CSS, JavaScript, and frameworks.
+        Experience with front-end and basic back-end development.</p>
+        </div>
+    </div>
+    
+
+    <div class="second-skill">
+      <div class="video-container">
+        <video autoplay loop muted playsinline>
+          <source src="./images/Speech.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="skill-text">
+      <h3>Soft Skills</h3>
+      <p class="skills">Strong communication, teamwork, and problem-solving abilities. Able to adapt quickly, collaborate
+        effectively, and manage time efficiently in dynamic environments.</p>
+        </div>
+    </div>
+
+
+    <div class="third-skill">
+      <div class="video-container">
+        <video autoplay loop muted playsinline>
+          <source src="./images/Girl Cooking Food.mp4" type="video/mp4"
+        </video>
+      </div>
+      <div class="skill-text">
+        <h3>Food Preparation and Cooking</h3>
+        <p class="skills">Skilled in preparing a variety of dishes with attention to taste and presentation. Knowledgeable
+          about
+          nutrition and kitchen safety.</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      
+      <!--Section 4-->
+      <div class="fourth-container">
+        <h4>Know Me More!</h4>
+        <p class="contact">I'd love to connect! Whether it's about projects, collaborations, or shared interests—feel free to reach out
+          anytime.</p>
+          <a href="mailto:diyachib097@gmail.com">
+        <button class="button">Contact Me</button></a>
+      </div>
+
+
+      <!--Section 5-->
+      <div class="fifth-container">
+        <footer class="footer">
+          <a href="https://www.linkedin.com/in/diya-chib-417454289" target="_blank">
+            <h6>LinkedIn</h6>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <h6>Instagram</h6>
+          </a>
+          <a href="https://www.twitter.com/" target="_blank">
+            <h6>Twitter</h6>
+          </a>
+          </footer>
+          <p class="credit">© Diya @ diyachib097</p>
+        
+        
+      </div>
+</body>
+</html>
